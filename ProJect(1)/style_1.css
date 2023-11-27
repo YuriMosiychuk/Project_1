@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+      padding: 0px;
+    box-sizing: border-box;  
+}
+
+.container_1 {
+    background-color: #e7ad40;
+    line-height: 100px;
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: #4e0c03;
+    padding: 15px;
+    position: relative;
+}
+
+.nav-list-link::after {
+    content: "";
+    background: #4e0c03;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transition: all .25s ease;
+    transform: scaleX(0);
+}
+
+.nav-list-link:hover::after {
+    transform: scaleX(1);
+}
+
+.logo-block {
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100%;
+    align-items: center;
+    padding: 5px;
+}
+
+.container_2 {
+    text-align: center;
+}
+
+.marquee {
+
+    background-color: rgb(247, 226, 226);
+    color: #c79134;
+}
+
+.marquee:hover::after {
+    content: url(./Image.jpg/10942969834_03018b91f3_o.jpg)
+}
+
+.p_2 {
+    color: #b64e40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container_3 {
+    background-color: rgb(247, 226, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Med {
+    text-align: justify;
+    margin-right: 15px;
+
+}
+
+.Bjeer {
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.h_3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #694e1f;
+}
+
+.container_4 {
+    background-color: rgb(247, 226, 226);
+}
+
+.list_text {
+    color: rgb(153, 79, 79);
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    list-style-type: square;
+    margin: 40px;
+}
+
+.nav-list-link_1:hover::after {
+    content: url("./Image.jpg/beznazvi-16.jpg")
+}
+
+.nav-list-link_2:hover::after {
+    content: url("./Image.jpg/image013-30-568x480.jpg")
+}
+
+.nav-list-link_3:hover::after {
+    content: url("./Image.jpg/c870743eec1c3c9b4840d2b0eeea9851.jpg")
+}
+
+.nav-list-link_4:hover::after {
+    content: url("./Image.jpg/601-1200x630.jpg")
+}
+
+.nav-list-link_5:hover::after {
+    content: url("./Image.jpg/yak\ zberihaty\ med\ v\ domashnikh\ umovakh-foto-870x435.jpg")
+}
+
+.container_5 {
+    /* background: url(); */
+    background-color: rgb(68, 60, 60);
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.menu ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+.container_6 {
+    background-color: rgb(31, 24, 24);
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
